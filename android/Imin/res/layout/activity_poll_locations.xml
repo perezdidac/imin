@@ -1,0 +1,217 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".PollLocationsActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/content_background"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textEventName"
+                style="@style/TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/content_horizontal_margin"
+                android:layout_marginRight="@dimen/content_vertical_margin"
+                android:layout_marginTop="@dimen/content_horizontal_margin"
+                android:textSize="@dimen/text_size_medium" />
+
+            <LinearLayout
+                android:id="@+id/layoutSelectLocations"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/content_horizontal_margin"
+                android:layout_marginRight="@dimen/content_vertical_margin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/TextViewBigNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="2."
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    style="@style/TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/select_your_locations" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutCloseEvent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/content_horizontal_margin"
+                android:layout_marginRight="@dimen/content_vertical_margin"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <TextView
+                    style="@style/TextViewBigNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="2."
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    style="@style/TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/select_the_final_location"
+                    android:textColor="@color/red" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutPoll"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/poll_location_vertical_padding" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <Button
+                        style="@style/ButtonPollLocationBlank"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/poll_location_height"
+                        android:layout_margin="@dimen/poll_location_vertical_padding"
+                        android:paddingBottom="@dimen/poll_location_vertical_padding"
+                        android:paddingLeft="@dimen/poll_location_horizontal_padding"
+                        android:paddingRight="@dimen/poll_location_horizontal_padding"
+                        android:paddingTop="@dimen/poll_location_vertical_padding" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/dark_gray"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/buttonYourVote"
+                            style="@style/ButtonPollLocationBlank"
+                            android:layout_width="@dimen/poll_location_left_column_width"
+                            android:layout_height="@dimen/poll_location_user_vote_height"
+                            android:layout_margin="@dimen/poll_location_vertical_padding"
+                            android:paddingBottom="@dimen/poll_location_vertical_padding"
+                            android:paddingLeft="@dimen/poll_location_horizontal_padding"
+                            android:paddingRight="@dimen/poll_location_horizontal_padding"
+                            android:paddingTop="@dimen/poll_location_vertical_padding"
+                            android:text="@string/your_vote"
+                            android:textAlignment="textEnd"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="@dimen/poll_location_counter_height" >
+
+                        <Button
+                            style="@style/ButtonPollLocationBlank"
+                            android:layout_width="@dimen/poll_location_left_column_width"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/poll_location_vertical_padding"
+                            android:paddingBottom="@dimen/poll_location_vertical_padding"
+                            android:paddingLeft="@dimen/poll_location_horizontal_padding"
+                            android:paddingRight="@dimen/poll_location_horizontal_padding"
+                            android:paddingTop="@dimen/poll_location_vertical_padding"
+                            android:text="@string/other_votes"
+                            android:textAlignment="textEnd" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <HorizontalScrollView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/content_vertical_margin"
+                    android:layout_weight="1"
+                    android:background="@color/field_background_light"
+                    android:fillViewport="true"
+                    tools:ignore="NestedWeights" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:id="@+id/layoutPollLocations"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" >
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/layoutPollUserVotes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/dark_gray"
+                            android:orientation="horizontal" >
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/layoutPollCounters"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" >
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/layoutPollPoll"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:minHeight="@dimen/poll_location_poll_min_height"
+                            android:orientation="horizontal" >
+                        </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnFinish"
+            style="@style/ButtonPositive"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/finalizar" />
+    </LinearLayout>
+
+</LinearLayout>

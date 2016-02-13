@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/poll_datetime_vertical_padding"
+    android:paddingLeft="@dimen/poll_datetime_days_horizontal_padding"
+    android:paddingRight="@dimen/poll_datetime_days_horizontal_padding"
+    android:paddingTop="@dimen/poll_datetime_vertical_padding" >
+
+    <Button
+        android:id="@+id/btnViewPollDateTime"
+        style="@style/ButtonPollDateTime"
+        android:layout_width="@dimen/poll_datetime_days_width"
+        android:layout_height="@dimen/poll_datetime_height"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_small" />
+
+</RelativeLayout>

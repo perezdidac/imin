@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.imin"
+    android:versionCode="38"
+    android:versionName="0.3.8">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-permission android:name="android.permission.READ_SYNC_STATS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+
+    <application
+        android:name="com.imin.Imin"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/img_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.imin.SplashActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:logo="@drawable/img_action_icon"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="imintheapp.com"
+                    android:pathPattern="/imin/.*"
+                    android:scheme="http" />
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="imin" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.imin.WelcomeActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_welcome"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Fullscreen" />
+        <activity
+            android:name="com.imin.MainActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:logo="@drawable/img_action_icon" />
+        <activity
+            android:name="com.imin.CommentsActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_comments"
+            android:logo="@drawable/img_action_icon" />
+        <activity
+            android:name="com.imin.ProfileActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_profile"
+            android:logo="@drawable/img_action_icon" />
+        <activity
+            android:name="com.imin.AboutActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_about"
+            android:logo="@drawable/img_action_icon" />
+        <activity
+            android:name="com.imin.CreateEventActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_create_event"
+            android:logo="@drawable/img_action_icon" />
+        <activity
+            android:name="com.imin.SelectLocationsActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_select_locations"
+            android:logo="@drawable/img_action_icon" />
+        <activity
+            android:name="com.imin.SelectDatesActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_select_dates"
+            android:logo="@drawable/img_action_icon" />
+        <activity
+            android:name="com.imin.EventCreatedActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_event_created"
+            android:logo="@drawable/img_action_icon" />
+        <activity
+            android:name="com.imin.PollDateTimesActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_poll_datetimes"
+            android:logo="@drawable/img_action_icon" />
+        <activity
+            android:name="com.imin.PollLocationsActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_poll_locations"
+            android:logo="@drawable/img_action_icon" />
+
+
+        <provider
+            android:name="com.imin.communications.sync.EventProvider"
+            android:authorities="com.imin.communications.sync"
+            android:exported="false"
+            android:label="@string/plans"
+            android:syncable="true" />
+
+        <service
+            android:name="com.imin.communications.sync.SyncService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/syncadapter" />
+        </service>
+
+        <service
+            android:name="com.imin.communications.sync.AccountService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator" />
+        </service>
+
+    </application>
+
+</manifest>

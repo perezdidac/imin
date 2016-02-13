@@ -1,0 +1,144 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="actionBarStyle">@style/ActionBar.Solid.Imin</item>
+        <item name="android:actionBarStyle" tools:targetApi="11">@style/ActionBar.Solid.Imin</item>
+    </style>
+
+    <style name="AppTheme.Fullscreen" parent="Theme.AppCompat.Light">
+        <item name="android:windowActionBar" tools:targetApi="11">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="ActionBar.Solid.Imin" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="background">@color/actionbar_background</item>
+        <item name="android:background">@color/actionbar_background</item>
+    </style>
+
+    <style name="CheckBox" parent="android:Widget.Holo.Light.CheckedTextView">
+        <item name="android:padding">@dimen/text_padding</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <style name="TextView" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:padding">@dimen/text_padding</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <style name="TextViewBigNumber" parent="TextView">
+        <item name="android:padding">@dimen/text_padding</item>
+        <item name="android:textSize">@dimen/text_size_message</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="EditText" parent="android:Widget.Holo.Light.EditText">
+        <item name="android:padding">@dimen/text_padding</item>
+        <item name="android:layout_marginLeft">@dimen/edit_text_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/edit_text_margin_left</item>
+        <item name="android:layout_marginTop">@dimen/edit_text_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/edit_text_margin_top</item>
+        <item name="android:background">@drawable/edittext_background</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:minHeight">@dimen/edit_text_min_height</item>
+    </style>
+
+    <style name="Button" parent="android:Widget.Holo.Light.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginLeft">@dimen/button_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/button_margin_left</item>
+        <item name="android:layout_marginTop">@dimen/button_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/button_margin_top</item>
+        <item name="android:minHeight">@dimen/button_min_height</item>
+        <item name="android:minWidth">@dimen/button_min_width</item>
+        <item name="android:paddingLeft">@dimen/button_padding_left</item>
+        <item name="android:paddingRight">@dimen/button_padding_right</item>
+        <item name="android:textSize">@dimen/text_size_more</item>
+    </style>
+
+    <style name="ButtonCalendar" parent="Button">
+        <item name="android:background">@drawable/button_calendar_arrow</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:minWidth">@dimen/calendar_min_width</item>
+    </style>
+
+    <style name="ButtonPositive" parent="Button">
+        <item name="android:background">@drawable/button_positive_background</item>
+    </style>
+
+    <style name="ButtonNeutral" parent="Button">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@drawable/button_neutral_background</item>
+    </style>
+
+    <style name="ButtonNegative" parent="Button">
+        <item name="android:drawableRight">@drawable/img_reject_icon</item>
+        <item name="android:background">@drawable/button_negative_background</item>
+    </style>
+
+    <style name="ButtonCalendarDay" parent="Button">
+        <item name="android:layout_margin">@dimen/calendar_day_margin</item>
+        <item name="android:padding">@dimen/calendar_day_padding</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/button_calendar_day_background</item>
+    </style>
+
+    <style name="ButtonPoll" parent="android:Widget.Holo.Light.Button">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:minWidth">10dp</item>
+        <item name="android:minHeight">0dp</item>
+    </style>
+
+    <style name="ButtonPollDateTimes" parent="ButtonPoll"></style>
+
+    <style name="ButtonPollLocations" parent="ButtonPoll"></style>
+
+    <style name="ButtonPollDateTimeBlank" parent="ButtonPollDateTimes">
+        <item name="android:background">@drawable/button_poll_blank_background</item>
+    </style>
+
+    <style name="ButtonPollLocationBlank" parent="ButtonPollLocations">
+        <item name="android:background">@drawable/button_poll_blank_background</item>
+    </style>
+
+    <style name="ButtonPollDateTime" parent="ButtonPollDateTimes">
+        <item name="android:background">@drawable/button_poll_datetime_background</item>
+    </style>
+
+    <style name="ButtonPollDateTimeUserVote" parent="ButtonPollDateTimes">
+        <item name="android:background">@drawable/button_poll_option_attending_background</item>
+    </style>
+
+    <style name="ButtonPollLocationUserVote" parent="ButtonPollLocations">
+        <item name="android:background">@drawable/button_poll_option_attending_background</item>
+    </style>
+
+    <style name="ButtonPollDateTimeVote" parent="ButtonPollDateTimes"></style>
+
+    <style name="ButtonPollLocationVote" parent="ButtonPollDateTimes"></style>
+
+    <style name="ButtonPollDateTimeHiddenVote" parent="ButtonPollDateTimes">
+        <item name="android:background">@drawable/button_poll_user_vote_background</item>
+    </style>
+
+    <style name="ButtonPollLocationHiddenVote" parent="ButtonPollLocations">
+        <item name="android:background">@drawable/button_poll_user_vote_background</item>
+    </style>
+
+    <style name="ButtonPollDateTimeCounter" parent="ButtonPollDateTimes">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/button_poll_datetime_counter_background</item>
+    </style>
+
+    <style name="ButtonPollLocation" parent="ButtonPollLocations">
+        <item name="android:background">@drawable/button_poll_location_background</item>
+    </style>
+
+    <style name="ButtonPollLocationCounter" parent="ButtonPollLocations">
+        <item name="android:background">@drawable/button_poll_location_counter_background</item>
+    </style>
+
+</resources>

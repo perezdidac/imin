@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Drop Shadow Stack -->
+    <item>
+        <shape>
+            <padding android:bottom="2dp" />
+
+            <solid android:color="@color/green_line" />
+        </shape>
+    </item>
+    <!-- Background -->
+    <item>
+        <shape>
+            <solid android:color="@color/green" />
+        </shape>
+    </item>
+    <!-- Icon -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/img_tick" />
+    </item>
+
+</layer-list>

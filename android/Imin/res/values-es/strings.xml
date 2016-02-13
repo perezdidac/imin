@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- DO NOT MODIFY -->
+    <string name="app_name">Imin</string>
+    <string name="app_host">imintheapp.com</string>
+    <string name="company_name">The Bald Labs</string>
+    <string name="app_website">www.imintheapp.com</string>
+    <string name="app_full_website">http://www.imintheapp.com</string>
+
+    <!-- TO IMPLEMENT -->
+
+
+    <!-- SHORT MONTH NAMES (3 CHARACTERS AT MOST) -->
+    <string name="monday">Lun</string>
+    <string name="sunday">Dom</string>
+    <string name="saturday">Sáb</string>
+    <string name="friday">Vie</string>
+    <string name="thursday">Jue</string>
+    <string name="tuesday">Mar</string>
+    <string name="wednesday">Mié</string>
+
+    <!-- FULL MONTH NAMES -->
+    <string name="january">Enero</string>
+    <string name="february">Febrero</string>
+    <string name="march">Marzo</string>
+    <string name="april">Abril</string>
+    <string name="may">Mayo</string>
+    <string name="june">Junio</string>
+    <string name="july">Julio</string>
+    <string name="august">Agosto</string>
+    <string name="september">Septiembre</string>
+    <string name="october">Octubre</string>
+    <string name="november">Noviembre</string>
+    <string name="december">Diciembre</string>
+
+    <!-- ActionBar activity titles -->
+    <string name="title_activity_create_event">Crea tu plan</string>
+    <string name="title_activity_select_locations">Propón lugares</string>
+    <string name="title_activity_select_dates">Selecciona fechas</string>
+    <string name="title_activity_comments">Danos tu opinión</string>
+    <string name="title_activity_profile">Tu perfil</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_about">Acerca de</string>
+    <string name="title_activity_event_created">¡Enhorabuena!</string>
+    <string name="title_activity_poll_datetimes">¿Cuándo te va bien?</string>
+    <string name="title_activity_poll_locations">¿Dónde te va bien?</string>
+
+    <!-- Menu names -->
+    <string name="action_create_event">Crear tu plan</string>
+    <string name="action_about">Acerca de</string>
+    <string name="action_profile">Tu perfil</string>
+    <string name="action_comments">Danos tu opinión</string>
+    <string name="remove_event">¿Quieres eliminar el evento?</string>
+    <string name="yes">Sí</string>
+    <string name="create_new_event">Crea tu plan</string>
+    <string name="event_name">Escribe el nombre de tu plan</string>
+    <string name="event_location">¿Cuál será el lugar para tu plan? Puedes proponer más de un lugar para que los demás voten.</string>
+    <string name="create">Finalizar</string>
+    <string name="please_introduce_a_name_for_the_new_location">Escribe almenos un lugar</string>
+    <string name="that_location_name_has_been_already_used">Ya has introducido este lugar</string>
+    <string name="home">Terminar</string>
+    <string name="creating_event">Creando tu plan…</string>
+    <string name="respond_poll">Votar</string>
+    <string name="generic_error">Oops! Parece que hay un problema de conexión</string>
+    <string name="responding_event">Enviando tu voto…</string>
+    <string name="poll_responded">Tu voto ha sido enviado</string>
+    <string name="retrieving_event">Uniéndote al plan…</string>
+    <string name="share">Invita a tus contactos</string>
+    <string name="closing_event">Cerrando votaciones…</string>
+    <string name="event_closed">Votaciones cerradas</string>
+    <string name="event_reopened">Votaciones abiertas de nuevo</string>
+    <string name="reopening_event">Abriendo votaciones…</string>
+    <string name="you">Tú</string>
+    <string name="send_comments">Envía tus comentarios</string>
+    <string name="comments">¿Tienes alguna sugerencia para nosotros? Gracias a ti podremos mejorar Imin.</string>
+    <string name="attending_contacts">Asistentes</string>
+    <string name="share_via">Compartir vía</string>
+    <string name="invitation">Invitación</string>
+    <string name="event_left">Has abandonado el plan</string>
+    <string name="loading">Cargando…</string>
+    <string name="invited">Invitados</string>
+    <string name="attending">Asistirán</string>
+    <string name="not_attending">No asistirán</string>
+    <string name="not_sure">Indecisos</string>
+    <string name="edit">Editar</string>
+    <string name="type_here_the_event_name">Fin de semana en la montaña, barbacoa, cervezas y rock\'n\'roll</string>
+    <string name="type_here_a_location_proposal">Introduce un lugar</string>
+    <string name="please_introduce_a_valid_name_for_the_event">Escribe el nombre de tu plan</string>
+    <string name="no">No</string>
+    <string name="more">Más</string>
+    <string name="picture">Foto</string>
+    <string name="select_a_picture">Selecciona una imagen</string>
+    <string name="ok">OK</string>
+    <string name="poll">Votaciones</string>
+    <string name="reject">Rechazar</string>
+    <string name="touch_to_select_a_picture">Toca para seleccionar una imagen</string>
+    <string name="would_you_like_to_remove_the_picture">¿Deseas eliminar la imagen?</string>
+    <string name="close">Cerrar votaciones</string>
+    <string name="reopen">Abrir votaciones</string>
+    <string name="close_event">Cerrar votaciones</string>
+    <string name="close_event_">¿Deseas cerrar las votaciones?</string>
+    <string name="reopen_event_">¿Deseas abrir las votaciones de nuevo?</string>
+    <string name="close_event_with_the_selected_proposal_">¿Deseas cerrar las votaciones y fijar el plan para la fecha y lugar seleccionados?</string>
+    <string name="removing_event">Eliminando plan…</string>
+    <string name="events_json">events.json</string>
+    <string name="closed">Apuntado</string>
+    <string name="share_the_event">Compartir plan</string>
+    <string name="oops_error_retry_">Oops! Parece que hay un problema de conexión. ¿Intentar de nuevo?</string>
+    <string name="accept">OK</string>
+    <string name="creating_event_">Creando plan…</string>
+    <string name="retry">Volver a intentar</string>
+    <string name="voted">Voted</string>
+    <string name="responded">Votado</string>
+    <string name="to_be_responded">Vota!</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Guardar</string>
+    <string name="sending_comments_">Enviando comentarios…</string>
+    <string name="type_your_name_here">Escribe tu nombre</string>
+    <string name="select_photo">Selecciona una foto</string>
+    <string name="enter">Entrar</string>
+    <string name="please_introduce_a_valid_user_name">Por favor, introduce un nombre de usuario válido</string>
+    <string name="your_comments_here">Escribe tus sugerencias</string>
+    <string name="reopening_event_">Abriendo plan…</string>
+    <string name="take_picture">Hacer foto</string>
+    <string name="select_picture">Elegir foto</string>
+    <string name="add_picture">Añadir foto</string>
+    <string name="network_error_would_you_like_to_retry_">Oops! Parece que hay un problema de conexión. ¿Intentar de nuevo?</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="loading_">Cargando…</string>
+    <string name="refresh">Actualizar</string>
+    <string name="sample_text">Texto de ejemplo</string>
+    <string name="join">Unirme al plan</string>
+    <string name="joining_event">Uniéndote al plan…</string>
+    <string name="welcome_to_imin">"¡Bienvenido a Imin!\nCon Imin podrás crear planes e invitar a tus amigos para que voten cuándo y dónde les viene mejor.\n¡Muchas gracias por descargar Imin!"</string>
+    <string name="imin">imin</string>
+    <string name="refresh_events">Actualizar</string>
+    <string name="refreshing_events">Actualizando</string>
+    <string name="next">Siguiente</string>
+    <string name="add_location">Añadir lugar</string>
+    <string name="select_a_picture_for_the_event">Escoge una imagen para tu plan</string>
+    <string name="selected_places">Lista de lugares</string>
+    <string name="select_dates">Para terminar, ¿cuándo se celebrará tu plan? marca en el calendario las posibles fechas para que los demás voten.</string>
+    <string name="accept_the_legal_terms_and_conditions">Acepto las <a href="http://www.imintheapp.com/legal.html">condiciones y los términos legales</a></string>
+    <string name="user_name">Nombre de usuario</string>
+    <string name="select_the_final_date">Selecciona la fecha final en la que se celebrará tu evento. Comprueba las votaciones para ver cuáles son las más votadas.</string>
+    <string name="select_the_final_location">Selecciona el lugar donde se celebrará tu evento. Comprueba las votaciones para ver cuáles son las más votadas.</string>
+    <string name="your_vote">Tu voto</string>
+    <string name="select_your_dates">Selecciona las fechas que te vayan mejor. Puedes ver qué han votado los demás.</string>
+    <string name="select_your_locations">Selecciona los lugares donde te vaya mejor. Puedes ver qué han votado los demás.</string>
+    <string name="finalizar">Finalizar</string>
+    <string name="other_votes">Otros han votado</string>
+    <string name="admin_reminder">Eres el administrador, recuerda cerrar la votación cuando todos hayan votado.</string>
+    <string name="delete_permanently_your_account">¿Estás seguro de que quieres borrar definitivamente tu perfil?</string>
+    <string name="delete_account">Borrar perfil</string>
+    <string name="account_deleted">Perfil borrado. Aun así, estaremos encantados de volverte a ver por aquí :-)</string>
+    <string name="you_must_accept_the_legal_terms_to_proceed">Debes aceptar las condiciones para continuar</string>
+    <string name="tienes_que_seleccionar_un_dia">¡Tienes que seleccionar un día!</string>
+    <string name="tienes_que_seleccionar_un_lugar">¡Tienes que seleccionar un lugar!</string>
+    <string name="ha_respondido_la_encuesta">" ha respondido la encuesta"</string>
+    <string name="_y_">" y "</string>
+    <string name="tus_contactos">"Tus contactos "</string>
+    <string name="han_respondido_la_encuesta">han respondido la encuesta</string>
+    <string name="el_administrador_ha_cerrado_las_votaciones">El administrador ha cerrado las votaciones</string>
+    <string name="el_administrador_ha_abierto_las_votaciones">El administrador ha abierto las votaciones</string>
+    <string name="action_import_event">Importar plan</string>
+    <string name="please_select_at_least_one_date">Por favor, selecciona al menos una fecha</string>
+    <string name="invite_your_contacts">¡Enhorabuena! Invita a tus contactos</string>
+    <string name="insert_code">Inserta a continuación el código del plan al que quieres unirte</string>
+    <string name="incorrect_event_code_length">La longitud del código del plan es incorrecta</string>
+    <string name="slogan">¿Tienes un plan?</string>
+    <string name="oops_we_are_still_experiencing_errors">¡Vaya! aún tenemos errores que corregir… estamos trabajando duro para solucionarlo, sentimos las molestias :-)</string>
+    <string name="settings">Ajustes</string>
+    <string name="plans">Planes</string>
+    <string name="dont_be_shy">No seas tímido, déjanos algún comentario :-)</string>
+    <string name="tried_the_app">¿Has probado Imin?</string>
+    <string name="action_recommend">Recomendar</string>
+    <string name="url_facebook">https://www.facebook.com/imintheapp</string>
+    <string name="url_twitter">https://twitter.com/imintheapp</string>
+    <string name="url_google">https://plus.google.com/+Imintheapp</string>
+    <string name="url_mail">mailto:info@imintheapp.com</string>
+
+</resources>

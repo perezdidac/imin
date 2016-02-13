@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dialog_margins"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/dialog_paddings" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/img_popup_question_icon"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textMessage"
+        style="@style/TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:text="@string/lorem_ipsum"
+        android:textSize="@dimen/text_size_message" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnYes"
+            style="@style/ButtonPositive"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/img_accept_icon"
+            android:paddingRight="0dp"
+            android:text="@string/yes" />
+
+        <Button
+            android:id="@+id/btnNo"
+            style="@style/ButtonNegative"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/img_reject_icon"
+            android:paddingRight="0dp"
+            android:text="@string/no" />
+    </LinearLayout>
+
+</LinearLayout>

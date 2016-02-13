@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutContacts"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/invited_content_background"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_event_paddings" >
+
+    <LinearLayout
+        android:id="@+id/layoutInvitedContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/textInvitedContacts"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/invited" />
+
+        <LinearLayout
+            android:id="@+id/listInvitedContacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/layout_event_paddings" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutAttendingContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/textAttendingContacts"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/attending" />
+
+        <LinearLayout
+            android:id="@+id/listAttendingContacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/layout_event_paddings" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutNotAttendingContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/textNotAttendingContacts"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/not_attending" />
+
+        <LinearLayout
+            android:id="@+id/listNotAttendingContacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/layout_event_paddings" />
+    </LinearLayout>
+
+</LinearLayout>

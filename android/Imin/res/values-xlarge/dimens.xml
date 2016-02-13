@@ -1,0 +1,123 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">20dp</dimen>
+    <dimen name="activity_vertical_margin">20dp</dimen>
+
+    <!-- Margins for cards -->
+    <dimen name="content_horizontal_margin">32dp</dimen>
+    <dimen name="content_vertical_margin">32dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="text_size_small">28sp</dimen>
+    <dimen name="text_size">30sp</dimen>
+    <dimen name="text_size_more">32sp</dimen>
+    <dimen name="text_size_message">40sp</dimen>
+    <dimen name="text_size_medium_small">48sp</dimen>
+    <dimen name="text_size_medium">56sp</dimen>
+    <dimen name="text_size_moderate">76sp</dimen>
+    <dimen name="text_size_large">96sp</dimen>
+    <dimen name="text_padding">10dp</dimen>
+
+    <!-- EditText style -->
+    <dimen name="edit_text_margin_left">10dp</dimen>
+    <dimen name="edit_text_margin_top">6dp</dimen>
+    <dimen name="edit_text_min_height">80dp</dimen>
+
+    <!-- Button style -->
+    <dimen name="button_margin_left">12dp</dimen>
+    <dimen name="button_margin_top">20dp</dimen>
+    <dimen name="button_min_height">80dp</dimen>
+    <dimen name="button_min_width">80dp</dimen>
+    <dimen name="button_padding_left">20dp</dimen>
+    <dimen name="button_padding_right">20dp</dimen>
+
+    <!-- Calendar -->
+    <dimen name="calendar_min_width">120dp</dimen>
+    <dimen name="calendar_day_padding">2dp</dimen>
+    <dimen name="calendar_day_margin">2dp</dimen>
+
+    <!-- Poll sizes -->
+    <dimen name="poll_datetime_horizontal_padding">16dp</dimen>
+    <dimen name="poll_datetime_days_horizontal_padding">4dp</dimen>
+    <dimen name="poll_datetime_vertical_padding">8dp</dimen>
+    <dimen name="poll_datetime_left_column_width">120dp</dimen>
+    <dimen name="poll_datetime_width">76dp</dimen>
+    <dimen name="poll_datetime_days_width">100dp</dimen>
+    <dimen name="poll_datetime_height">72dp</dimen>
+    <dimen name="poll_datetime_blank_width">76dp</dimen>
+    <dimen name="poll_datetime_blank_height">60dp</dimen>
+    <dimen name="poll_datetime_vote_width">76dp</dimen>
+    <dimen name="poll_datetime_vote_height">76dp</dimen>
+    <dimen name="poll_datetime_user_vote_width">76dp</dimen>
+    <dimen name="poll_datetime_user_vote_height">84dp</dimen>
+    <dimen name="poll_datetime_counter_width">76dp</dimen>
+    <dimen name="poll_datetime_counter_height">60dp</dimen>
+    <dimen name="poll_datetime_hidden_contact_width">76dp</dimen>
+    <dimen name="poll_datetime_hidden_contact_height">60dp</dimen>
+    <dimen name="poll_datetime_poll_min_height">180dp</dimen>
+    <dimen name="poll_location_horizontal_padding">16dp</dimen>
+    <dimen name="poll_location_location_horizontal_padding">4dp</dimen>
+    <dimen name="poll_location_vertical_padding">8dp</dimen>
+    <dimen name="poll_location_left_column_width">120dp</dimen>
+    <dimen name="poll_location_width">154dp</dimen>
+    <dimen name="poll_location_location_width">178dp</dimen>
+    <dimen name="poll_location_height">72dp</dimen>
+    <dimen name="poll_location_blank_width">154dp</dimen>
+    <dimen name="poll_location_blank_height">60dp</dimen>
+    <dimen name="poll_location_vote_width">84dp</dimen>
+    <dimen name="poll_location_vote_height">84dp</dimen>
+    <dimen name="poll_location_user_vote_width">154dp</dimen>
+    <dimen name="poll_location_user_vote_height">84dp</dimen>
+    <dimen name="poll_location_counter_width">154dp</dimen>
+    <dimen name="poll_location_counter_height">60dp</dimen>
+    <dimen name="poll_location_hidden_contact_width">154dp</dimen>
+    <dimen name="poll_location_hidden_contact_height">60dp</dimen>
+    <dimen name="poll_location_poll_min_height">180dp</dimen>
+
+    <!-- Create event activity -->
+    <dimen name="create_event_picture_height">340dp</dimen>
+    <dimen name="create_event_picture_width">340dp</dimen>
+    
+    <!-- Event layout -->
+    <dimen name="layout_event_paddings">16dp</dimen>
+    <dimen name="layout_event_proposal_paddings">12dp</dimen>
+    <dimen name="layout_event_image_size">174dp</dimen>
+    <dimen name="layout_event_margins">6dp</dimen>
+    <dimen name="layout_event_divider">20dp</dimen>
+    <dimen name="layout_event_people_padding">6dp</dimen>
+    <dimen name="layout_event_right_bar">16dp</dimen>
+
+    <!-- Generic list of elements -->
+    <dimen name="layout_element_margin">10dp</dimen>
+    <dimen name="layout_element_padding">10dp</dimen>
+
+    <!-- Date and time -->
+    <dimen name="element_divider">8dp</dimen>
+    <dimen name="calendar_day_height">80dp</dimen>
+    <dimen name="calendar_days_height">60dp</dimen>
+
+    <!-- Contacts layout -->
+    <dimen name="layout_contacts_margins">16dp</dimen>
+    <dimen name="layout_contacts_picture_size">160dp</dimen>
+    <dimen name="layout_contacts_user_picture">80dp</dimen>
+
+    <!-- About activity -->
+    <dimen name="activity_about_separation">84dp</dimen>
+
+    <!-- Contacts dialog -->
+    <dimen name="dialog_margins">20dp</dimen>
+    <dimen name="dialog_paddings">20dp</dimen>
+
+    <!-- Layout profile -->
+    <dimen name="layout_profile_user_picture_size">200dp</dimen>
+
+    <!-- Refreshable list header -->
+    <dimen name="refreshable_list_header_paddings">20dp</dimen>
+    <dimen name="refreshable_list_header_margin">50dp</dimen>
+    <dimen name="refreshable_list_header_progress_size">40dp</dimen>
+
+    <!-- Splash screen -->
+    <dimen name="splash_text_margin">160dp</dimen>
+    
+</resources>

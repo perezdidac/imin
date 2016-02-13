@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/contact_item_background"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    tools:ignore="UseCompoundDrawables" >
+
+    <ImageView
+        android:id="@+id/imageContactPicture"
+        android:layout_width="@dimen/layout_contacts_user_picture"
+        android:layout_height="@dimen/layout_contacts_user_picture"
+        android:layout_gravity="center"
+        android:src="@drawable/img_user_small"
+        android:visibility="gone"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textContactPicture"
+        style="@style/TextView"
+        android:layout_width="@dimen/layout_contacts_user_picture"
+        android:layout_height="@dimen/layout_contacts_user_picture"
+        android:layout_gravity="center"
+        android:background="@color/green"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_medium" />
+
+    <TextView
+        android:id="@+id/textContactName"
+        style="@style/TextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="@string/sample_text"
+        android:textSize="@dimen/text_size" >
+    </TextView>
+
+</LinearLayout>

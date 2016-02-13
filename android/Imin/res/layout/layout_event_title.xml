@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/event_title_content_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageEventPicture"
+            android:layout_width="@dimen/layout_event_image_size"
+            android:layout_height="@dimen/layout_event_image_size"
+            android:layout_gravity="center"
+            android:src="@drawable/img_event_default"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/layout_event_image_size"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/layout_event_paddings"
+            android:paddingRight="@dimen/layout_event_paddings" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="true"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables" >
+
+                <TextView
+                    android:id="@+id/textEventType"
+                    style="@style/TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:textSize="@dimen/text_size_message" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/layout_event_margins"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/layout_event_paddings"
+                    android:paddingRight="@dimen/layout_event_paddings"
+                    tools:ignore="UseCompoundDrawables" >
+
+                    <TextView
+                        android:id="@+id/textEventPeople"
+                        style="@style/TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingLeft="@dimen/layout_event_people_padding"
+                        android:paddingRight="@dimen/layout_event_people_padding" />
+
+                    <ImageView
+                        android:id="@+id/btnEventPeople"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/button_people_background"
+                        tools:ignore="ContentDescription" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/btnEventShare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/layout_event_margins"
+                    android:padding="@dimen/layout_event_paddings"
+                    android:src="@drawable/button_share_background"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textEventName"
+                style="@style/TextView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="2"
+                android:textSize="@dimen/text_size_more"
+                tools:ignore="NestedWeights" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutEventRightBar"
+            android:layout_width="@dimen/layout_event_right_bar"
+            android:layout_height="@dimen/layout_event_image_size"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/layout_event_paddings"
+            tools:ignore="UselessLeaf" />
+    </LinearLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/layout_event_final_proposal" />
+
+</LinearLayout>

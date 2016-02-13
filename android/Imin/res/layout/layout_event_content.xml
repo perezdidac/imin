@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutEventDetails"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/content_background"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/layout_event_paddings"
+    android:paddingRight="@dimen/layout_event_paddings" >
+
+    <TextView
+        android:id="@+id/textEventDescription"
+        style="@style/TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:visibility="gone" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_contacts_margins"
+        android:layout_marginRight="@dimen/layout_contacts_margins"
+        layout="@layout/layout_contacts" />
+
+    <Button
+        android:id="@+id/btnEventEdit"
+        style="@style/ButtonNeutral"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="0dp"
+        android:drawableRight="@drawable/img_editevent_icon"
+        android:focusable="false"
+        android:gravity="center_vertical|center_horizontal|left"
+        android:paddingRight="0dp"
+        android:text="@string/edit"
+        android:visibility="gone"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnEventJoin"
+            style="@style/ButtonPositive"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/img_accept_icon"
+            android:focusable="false"
+            android:paddingRight="0dp"
+            android:text="@string/join"
+            android:visibility="gone"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/btnEventReopen"
+            style="@style/ButtonPositive"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/img_reopen_icon"
+            android:focusable="false"
+            android:paddingRight="0dp"
+            android:text="@string/reopen"
+            android:visibility="gone"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/btnEventPoll"
+            style="@style/ButtonPositive"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/img_accept_icon"
+            android:focusable="false"
+            android:paddingRight="0dp"
+            android:text="@string/poll"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/btnEventRemove"
+            style="@style/ButtonNegative"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/img_reject_icon"
+            android:focusable="false"
+            android:paddingRight="0dp"
+            android:text="@string/reject"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutAdminRemember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/TextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lines="3"
+            android:text="@string/admin_reminder"
+            android:textColor="@color/lightblue"
+            android:textSize="@dimen/text_size_small" />
+
+        <Button
+            android:id="@+id/btnEventClose"
+            style="@style/ButtonNeutral"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableRight="@drawable/img_closevotation"
+            android:focusable="false"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+</LinearLayout>

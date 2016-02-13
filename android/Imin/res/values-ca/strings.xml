@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- DO NOT MODIFY -->
+    <string name="app_name">Imin</string>
+    <string name="app_host">imintheapp.com</string>
+    <string name="company_name">The Bald Labs</string>
+    <string name="app_website">www.imintheapp.com</string>
+    <string name="app_full_website">http://www.imintheapp.com</string>
+
+    <!-- TO IMPLEMENT -->
+
+
+    <!-- SHORT MONTH NAMES (3 CHARACTERS AT MOST) -->
+    <string name="monday">Dil</string>
+    <string name="sunday">Diu</string>
+    <string name="saturday">Dis</string>
+    <string name="friday">Div</string>
+    <string name="thursday">Dij</string>
+    <string name="tuesday">Dim</string>
+    <string name="wednesday">Dix</string>
+
+    <!-- FULL MONTH NAMES -->
+    <string name="january">Gener</string>
+    <string name="february">Febrer</string>
+    <string name="march">Març</string>
+    <string name="april">Abril</string>
+    <string name="may">Maig</string>
+    <string name="june">Juny</string>
+    <string name="july">Juliol</string>
+    <string name="august">Agost</string>
+    <string name="september">Septiembre</string>
+    <string name="october">Octubre</string>
+    <string name="november">Novembre</string>
+    <string name="december">Desembre</string>
+
+    <!-- ActionBar activity titles -->
+    <string name="title_activity_create_event">Crea el teu esdeveniment</string>
+    <string name="title_activity_select_locations">Proposa llocs</string>
+    <string name="title_activity_select_dates">Proposa dates</string>
+    <string name="title_activity_comments">Dona\'ns la teva opinió</string>
+    <string name="title_activity_profile">El teu perfil</string>
+    <string name="title_activity_welcome">Benvingut</string>
+    <string name="title_activity_about">Sobre nosaltres</string>
+    <string name="title_activity_event_created">Enhorabona!</string>
+    <string name="title_activity_poll_datetimes">Quan et va bé?</string>
+    <string name="title_activity_poll_locations">On et va bé?</string>
+
+    <!-- Menu names -->
+    <string name="action_create_event">Crea el teu esdeveniment</string>
+    <string name="action_about">Sobre nosaltres</string>
+    <string name="action_profile">El teu perfil</string>
+    <string name="action_comments">Dona\'ns la teva opinió</string>
+    <string name="remove_event">Vols eliminar l\'esdeveniment?</string>
+    <string name="yes">Sí</string>
+    <string name="create_new_event">Crea el teu esdeveniment</string>
+    <string name="event_name">Escriu el nom del teu esdeveniment</string>
+    <string name="event_location">On serà el teu esdeveniment? Pots seleccionar més d\'un lloc per a que la gent voti.</string>
+    <string name="create">Finalitzar</string>
+    <string name="please_introduce_a_name_for_the_new_location">Escriu almenys un lloc</string>
+    <string name="that_location_name_has_been_already_used">Ja has introduït aquest lloc</string>
+    <string name="home">Finalitzar</string>
+    <string name="creating_event">Creant el teu esdeveniment…</string>
+    <string name="respond_poll">Votar</string>
+    <string name="generic_error">Oops! Sembla que hi ha problemes de connexió</string>
+    <string name="responding_event">Enviant les teves votacions…</string>
+    <string name="poll_responded">El teu vot ha estat enviat</string>
+    <string name="retrieving_event">Unint-te a l\'esdeveniment…</string>
+    <string name="share">Convida als teus contactes</string>
+    <string name="closing_event">Tancant votacions…</string>
+    <string name="event_closed">Votacions tancades</string>
+    <string name="event_reopened">Votacions obertes de nou</string>
+    <string name="reopening_event">Obrint votaciones…</string>
+    <string name="you">Tu</string>
+    <string name="send_comments">Envia els teus comentaris</string>
+    <string name="comments">Tens algun suggeriment per nosaltres? Gràcies a tu podrem millorar Imin.</string>
+    <string name="attending_contacts">Asistents</string>
+    <string name="share_via">Compartir via</string>
+    <string name="invitation">Invitació</string>
+    <string name="event_left">Has abandonat l\'esdeveniment</string>
+    <string name="loading">Carregant…</string>
+    <string name="invited">Convidats</string>
+    <string name="attending">Asistiran</string>
+    <string name="not_attending">No asistiran</string>
+    <string name="not_sure">Indecisos</string>
+    <string name="edit">Editar</string>
+    <string name="type_here_the_event_name">Cap de setmana a la muntanya, barbacoa, cerveses i rock\'n\'roll</string>
+    <string name="type_here_a_location_proposal">Introdueix un lloc</string>
+    <string name="please_introduce_a_valid_name_for_the_event">Escriu el nom del teu esdeveniment</string>
+    <string name="no">No</string>
+    <string name="more">Més</string>
+    <string name="picture">Foto</string>
+    <string name="select_a_picture">Selecciona una imatge</string>
+    <string name="ok">OK</string>
+    <string name="poll">Votacions</string>
+    <string name="reject">Rebutjar</string>
+    <string name="touch_to_select_a_picture">Toca para seleccionar una imatge</string>
+    <string name="would_you_like_to_remove_the_picture">Vols eliminar la imatge?</string>
+    <string name="close">Tancar votacions</string>
+    <string name="reopen">Obrir votacions</string>
+    <string name="close_event">Tancar votacions</string>
+    <string name="close_event_">Vols tancar les votacions?</string>
+    <string name="reopen_event_">Vols obrir les votacions de nou?</string>
+    <string name="close_event_with_the_selected_proposal_">Vols tancar les votacions i fixar l\'esdeveniment per la data i lloc seleccionats?</string>
+    <string name="removing_event">Eliminant esdeveniment…</string>
+    <string name="events_json">events.json</string>
+    <string name="closed">Apuntat</string>
+    <string name="share_the_event">Compartir esdeveniment</string>
+    <string name="oops_error_retry_">Oops! Sembla que hi ha problemes de connexió. Intentar de nou?</string>
+    <string name="accept">OK</string>
+    <string name="creating_event_">Creant esdeveniment…</string>
+    <string name="retry">Tornar a intentar</string>
+    <string name="voted">Voted</string>
+    <string name="responded">Votat</string>
+    <string name="to_be_responded">Vota!</string>
+    <string name="cancel">Cancel·lar</string>
+    <string name="save">Guardar</string>
+    <string name="sending_comments_">Enviant comentaris…</string>
+    <string name="type_your_name_here">Escriu el teu nom</string>
+    <string name="select_photo">Selecciona una foto</string>
+    <string name="enter">Entrar</string>
+    <string name="please_introduce_a_valid_user_name">Si us plau, introdueix un nom d\'usuari vàlid</string>
+    <string name="your_comments_here">Escriu els teus suggeriments</string>
+    <string name="reopening_event_">Carregant esdeveniment…</string>
+    <string name="take_picture">Fer foto</string>
+    <string name="select_picture">Escollir foto</string>
+    <string name="add_picture">Afegir foto</string>
+    <string name="network_error_would_you_like_to_retry_">Oops! Sembla que hi ha problemes de connexió. Intentar de nou?</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="loading_">Carregant…</string>
+    <string name="refresh">Actualitzar</string>
+    <string name="sample_text">Text d\'exemple</string>
+    <string name="join">Unir-me a l\'esdeveniment</string>
+    <string name="joining_event">Unint-te a l\'esdeveniment…</string>
+    <string name="welcome_to_imin">"¡Benvingut a Imin!\nAmb Imin podrès crear esdeveniments i convidar als teus amics per a que votin quan i on els hi va bé.\nMoltíssimes gràcies per descarregar-la!"</string>
+    <string name="imin">imin</string>
+    <string name="refresh_events">Actualitzar</string>
+    <string name="refreshing_events">Actualitzant</string>
+    <string name="next">Següent</string>
+    <string name="add_location">Afegir lloc</string>
+    <string name="select_a_picture_for_the_event">Escull una imatge pel teu esdeveniment</string>
+    <string name="selected_places">Llistat de llocs</string>
+    <string name="select_dates">Per acabar, on se celebrarà l\'esdeveniment? marca en el calendari les possibles dates per a que els demés votin.</string>
+    <string name="accept_the_legal_terms_and_conditions">Accepto les <a href="http://www.imintheapp.com/legal.html">condicions i terminis legals</a></string>
+    <string name="user_name">Nom d\'usuari</string>
+    <string name="select_the_final_date">Selecciona la data final de l\'esdeveniment. Comprova les votacions per veure quines són les més votades.</string>
+    <string name="select_the_final_location">Selecciona el lloc on es celebrarà l\'esdeveniment. Comprova les votacions per veure quins són els més votats.</string>
+    <string name="your_vote">Tu</string>
+    <string name="select_your_dates">Selecciona les dates que et vagin millor. Pots veure què han votat els demés.</string>
+    <string name="select_your_locations">Selecciona els llocs on et vagi millor. Pots veure què han votat els demés.</string>
+    <string name="finalizar">Finalitzar</string>
+    <string name="other_votes">Els demés</string>
+    <string name="admin_reminder">Ets l\'administrador, recorda tancar les votacions un cop hagi votat tothom.</string>
+    <string name="delete_permanently_your_account">Estàs segur de que vols eliminar el teu perfil?</string>
+    <string name="delete_account">Eliminar perfil</string>
+    <string name="account_deleted">Perfil eliminat. Tanmateix, estarem encantats de tornar-te a veure per aquí :-)</string>
+    <string name="you_must_accept_the_legal_terms_to_proceed">Per a continuar, has d\'acceptar les condicions</string>
+    <string name="tienes_que_seleccionar_un_dia">Has de seleccionar un dia!</string>
+    <string name="tienes_que_seleccionar_un_lugar">Has de seleccionar un lloc!</string>
+    <string name="ha_respondido_la_encuesta">" ha votat"</string>
+    <string name="_y_">" i "</string>
+    <string name="tus_contactos">"Els teus contactes "</string>
+    <string name="han_respondido_la_encuesta">han votat</string>
+    <string name="el_administrador_ha_cerrado_las_votaciones">L\'administrador ha tancat les votacions</string>
+    <string name="el_administrador_ha_abierto_las_votaciones">L\'administrador ha obert les votacions</string>
+    <string name="action_import_event">Importar esdeveniment</string>
+    <string name="please_select_at_least_one_date">Si us plau, sel·lecciona almenys una data</string>
+    <string name="invite_your_contacts">Enhorabona! Convida als teus contactes</string>
+    <string name="insert_code">Indica a continuació el codi de l\'esdeveniment al que vols unir-te</string>
+    <string name="incorrect_event_code_length">La longitut del codi de l\'esdeveniment és incorrecte</string>
+    <string name="slogan">Tens un pla?</string>
+    <string name="oops_we_are_still_experiencing_errors">Vaja! encara tenim errors per aquí. Estem treballant dur per arreglar-ho :-)</string>
+    <string name="settings">Configuració</string>
+    <string name="plans">Esdeveniments</string>
+    <string name="dont_be_shy">No siguis vergonyós, deixa algun comentari :-)</string>
+    <string name="tried_the_app">Has provat Imin?</string>
+    <string name="action_recommend">Recomanar</string>
+    <string name="url_facebook">https://www.facebook.com/imintheapp</string>
+    <string name="url_twitter">https://twitter.com/imintheapp</string>
+    <string name="url_google">https://plus.google.com/+Imintheapp</string>
+    <string name="url_mail">mailto:info@imintheapp.com</string>
+
+</resources>

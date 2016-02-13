@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sabd="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_create_event"
+        android:icon="@drawable/img_create_event"
+        android:title="@string/action_create_event"
+        sabd:showAsAction="always" />
+    <item
+        android:id="@+id/root_menu"
+        android:icon="@drawable/img_menu"
+        android:title="@string/more"
+        sabd:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_import_event"
+                android:title="@string/action_import_event" />
+            <item
+                android:id="@+id/action_profile"
+                android:title="@string/action_profile" />
+            <item
+                android:id="@+id/action_comments"
+                android:title="@string/action_comments" />
+            <item
+                android:id="@+id/action_recommend"
+                android:title="@string/action_recommend" />
+            <item
+                android:id="@+id/action_about"
+                android:title="@string/action_about" />
+        </menu>
+    </item>
+
+</menu>

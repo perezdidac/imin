@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="background">#e6e6e6</color>
+    <color name="content_background_border_semi">#d6d6d6</color>
+    <color name="content_background_border">#c6c6c6</color>
+    <color name="content_background">#ffffff</color>
+    <color name="invited_content_background">#eeeeee</color>
+    <color name="field_background">#f0f0f8</color>
+    <color name="field_background_light">#efefef</color>
+    <color name="actionbar_background">#ffffff</color>
+    <color name="button_background">#8cc63c</color>
+    <color name="button_background_bottom">#85a662</color>
+    <color name="event_item">#ffffff</color>
+    <color name="border_image">#f8f8f8</color>
+    <color name="black">#000000</color>
+    <color name="dark_gray">#535353</color>
+    
+    <color name="blue_dont_know">#2195DF</color>
+
+    <!--<color name="lightgray">#F0F0F0</color>-->
+    <color name="lightblue">#008AB6</color>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="white_line">#B1B1B1</color>
+    <color name="white_pressed">#B1B1B1</color>
+    <color name="white_line_pressed">#B1B1B1</color>
+    
+    <color name="green">#70A728</color>
+    <color name="green_line">#507D15</color>
+    <color name="green_pressed">#588320</color>
+    <color name="green_pressed_line">#507D15</color>
+    
+    <color name="blue">#4189B3</color>
+    <color name="blue_line">#286A91</color>
+    <color name="blue_pressed">#29688C</color>
+    <color name="blue_pressed_line">#286A91</color>
+    
+    <color name="turquoise">#45697F</color>
+    <color name="turquoise_line">#2C5065</color>
+    <color name="turquoise_pressed">#2C495B</color>
+    <color name="turquoise_pressed_line">#2C5065</color>
+    
+    <color name="red">#F15A24</color>
+    <color name="red_line">#C8400F</color>
+    <color name="red_pressed">#BD3F12</color>
+    <color name="red_pressed_line">#C8400F</color>
+    
+    <color name="gray">#ECECEC</color>
+    <color name="gray_line">#ECECEC</color>
+    <color name="gray_pressed">#CCCCCC</color>
+    <color name="gray_pressed_line">#CCCCCC</color>
+    
+    <color name="lightgray">#D5D5D5</color>
+    <color name="lightgray_line">#D5D5D5</color>
+    
+    <color name="darkgray">#CCCCCC</color>
+    <color name="darkgray_line">#B5B5B5</color>
+    <color name="darkgray_pressed">#858585</color>
+    <color name="darkgray_pressed_line">#B5B5B5</color>
+</resources>

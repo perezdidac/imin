@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SelectLocationsActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/content_background"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/content_vertical_margin"
+        android:paddingLeft="@dimen/content_horizontal_margin"
+        android:paddingRight="@dimen/content_vertical_margin"
+        android:paddingTop="@dimen/content_horizontal_margin" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/TextViewBigNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="3." />
+
+            <TextView
+                style="@style/TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/event_location" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/textNewLocation"
+            style="@style/EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/type_here_a_location_proposal"
+            android:inputType="textCapSentences"
+            android:maxLength="32" />
+
+        <Button
+            android:id="@+id/btnAddLocation"
+            style="@style/ButtonNeutral"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableRight="@drawable/img_datelocation_icon"
+            android:gravity="center_vertical|center_horizontal|left"
+            android:paddingRight="0dp"
+            android:text="@string/add_location"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="@string/selected_places" />
+
+        <ListView
+            android:id="@+id/listLocations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="NestedScrolling" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnNext"
+        style="@style/ButtonPositive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/next" />
+
+</LinearLayout>
